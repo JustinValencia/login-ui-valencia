@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+/*this is our container*/
+.login{
+    display: flex;
+    min-height: 100px;
+    height: 300px;
+    width: 33%;
+    border: 1px solid rgb(157, 80, 245);
+    justify-content: center;
+    align-items: space-evenly;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+}
+
+/*Actual login form*/
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.form h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vw;
+    color: rgba(71, 54, 42, 0.829);
+    height: 110px;
+}
+
+button {
+    align-items:center;
+    background-color: rgb(103, 225, 255);
+}
+
+button, input{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.login input{
+    display: flex;
+    letter-spacing: 1px;
+    text-indent: 5vh;
+    background-color: #ffffff2e;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    background-image: url(lock-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 10px;
+}
+
+.login input:nth-child(2) {
+    background-image: url(gamepad-solid.svg)
+}
