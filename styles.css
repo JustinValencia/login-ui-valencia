@@ -17,8 +17,9 @@ body {
 /*this is our container*/
 .login{
     display: flex;
+    height: 55%;
     min-height: 100px;
-    height: 300px;
+    min-width: 100px;
     width: 33%;
     border: 1px solid rgb(157, 80, 245);
     justify-content: center;
@@ -71,5 +72,5 @@ button, input{
 }
 
 .login input:nth-child(2) {
-    background-image: url(gamepad-solid.svg)
+    background-image: url(gamepad-solid.svg);
 }
